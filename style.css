@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body {
+    font-family: 'Akaya Telivigala', cursive;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s step-end;
+}
+
+nav {
+    background-color: #001d35;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f0a500;
+}
+
+.doc-content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    color: #001d35;
+    font-size: 26pt;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 15pt;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #001d35;
+    border-bottom: 2px solid #f0a500;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #001d35;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.chart-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001d35;
+    color: white;
+    margin-top: 20px;
+}
